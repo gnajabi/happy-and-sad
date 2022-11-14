@@ -3,11 +3,14 @@
         <title>Happy and Sad</title>
     </head>
     <body>
-        <img id = "image" src = 'smiling-line-icon.png' alt="happy">
-        <button onclick="document.getElementById('image').src = 'sad-face-icon.png'">sad</button>
-        <button onclick="document.getElementById('image').src = 'smiling-line-icon.png'">happy</button>
+        <h1 id="title"></h1>
         <script>
-            
+            document.getElementById('title').innerHTML="<center> This is a title </center>"
         </script>
+        <img id = "image" src = 'smiling-line-icon.png' alt="happy">
+        <button style = "background-color: orange; border: orange; padding: 10px;"onclick="document.getElementById('image').src = 'sad-face-icon.png'">sad</button>
+        <button onclick="document.getElementById('image').src = 'smiling-line-icon.png'">happy</button>
+        <button onclick="document.getElementById('image').style.display = 'none'">bye</button>
+        <button onclick="document.getElementById('image').style.display = 'block'">hi</button>
     </body>
 </html>
