@@ -24,6 +24,7 @@ function goodbyeStranger(){
 }
 
 function helloAgain(){
-    document.getElementById('title').innerHTML="Ahoy!"
+    document.getElementById('title').innerHTML="Boo!"
+    document.getElementById('image').src="enemy-ghost-icon.png"
     hereIAm()
 }
