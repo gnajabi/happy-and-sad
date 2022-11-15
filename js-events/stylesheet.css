@@ -1,0 +1,22 @@
+.sub{
+    background-color: hsl(212, 39%, 49%); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.thanks{
+    background-color: hsla(49, 100%, 52%, 0.911); 
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
