@@ -28,5 +28,8 @@ function helloAgain(){
     document.getElementById('title').innerHTML = "Boo!"
     document.getElementById('image').src = "enemy-ghost-icon.png"
     hereIAm()
-    //document.write("Banana")
+}
+
+function test(){
+    console.log(test.json);
 }
